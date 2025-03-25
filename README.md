@@ -2,6 +2,7 @@
 
 This project is a coding challenge for Pivot Robotics. It includes a game simulation with agents that move on a grid. The project uses `uv`, a fast python package manager, for building and running the application.
 
+![Game Visualization](image.png)
 ## Docker
 
 To get started with the project, follow these steps:
