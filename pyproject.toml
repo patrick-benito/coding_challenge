@@ -1,0 +1,21 @@
+[project]
+name = "coding-challenge"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "lcm>=1.5.1",
+    "names-generator>=0.2.0",
+]
+
+[tool.uv]
+package = true
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "matplotlib>=3.10.1",
+    "pytest>=8.3.5",
+    "streamlit>=1.43.2",
+]

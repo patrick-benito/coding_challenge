@@ -1,0 +1,41 @@
+package coding_challenge.messages;
+
+struct agent_start_t {
+    string agent_id;
+    string agent_type;
+    int64_t x;
+    int64_t y;
+}
+
+struct agent_stop_t {
+    string agent_id;
+}
+
+struct game_start_t {
+}
+
+struct game_stop_t {
+}
+
+struct agent_move_t {
+    string agent_id;
+    int32_t x;
+    int32_t y;
+}
+
+struct game_freeze_agent_t {
+    string agent_id;
+}
+
+struct agent_t {
+    string agent_id;
+    string agent_type;
+    int64_t x;
+    int64_t y;
+}
+
+struct game_state_t {
+    int32_t num_agents;
+    agent_t agents[num_agents];
+}
+
